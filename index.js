@@ -12,5 +12,5 @@ function selectCard() {
     document.getElementById("cardResult").innerText = `You got: ${randomRank} of ${randomSuit}`;
 
     // Update image display
-    document.getElementById("cardImages").innerHTML = `<img src="card_images/${cardName}" alt="${randomRank} of ${randomSuit}" style="width:150px;">`;
+    document.getElementById("cardImages").innerHTML = `<img src="${cardName}" alt="${randomRank} of ${randomSuit}" style="width:150px;">`;
 }

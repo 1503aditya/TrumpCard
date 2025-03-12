@@ -9,7 +9,7 @@ function selectCard() {
     const cardName = `${randomRank}_of_${randomSuit}.png`; // e.g., "ace_of_spades.png"
 
     // Update text result
-    document.getElementById("cardResult").innerText = `You got: ${randomRank} of ${randomSuit}`;
+    document.getElementById("cardResult").innerText = `Le re Lund ke`;
 
     // Update image display
     document.getElementById("cardImages").innerHTML = `<img src="${cardName}" alt="${randomRank} of ${randomSuit}" style="width:150px;">`;

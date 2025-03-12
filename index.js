@@ -24,7 +24,7 @@ function selectCard() {
 
     // Show the card image with animation
     document.getElementById("cardImages").innerHTML = `
-        <img src="card_images/${cardName}" alt="${randomRank} of ${randomSuit}" class="fade-in">
+        <img src="${cardName}" alt="${randomRank} of ${randomSuit}" class="fade-in">
     `;
 
     // Show text after a slight delay

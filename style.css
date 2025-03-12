@@ -1,20 +1,79 @@
+/* General Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #fff;
     text-align: center;
-    margin-top: 50px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
+/* Card Container */
 #container {
-    width: 300px;
-    margin: auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
 }
 
+/* Title */
+h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Styling */
 button {
+    background: #ffcc00;
+    color: #000;
+    font-size: 18px;
     padding: 10px 20px;
-    font-size: 16px;
+    border: none;
+    border-radius: 8px;
     cursor: pointer;
-    margin: 10px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.5);
+}
+
+button:hover {
+    background: #ff9900;
+}
+
+/* Result Styling */
+#cardResult {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+/* Card Image */
+#cardImages img {
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease;
+}
+
+/* Animation for card fade-in */
+.fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

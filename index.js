@@ -4,9 +4,9 @@ const ranks = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "jack", "queen", "k
 
 // Messages to cycle through
 const messages = [
-    "Refresh kar",
-    "Le re lund ke",
-    "Durr laura"
+    "You got: {card}",
+    "Oye hoye! Lucky card: {card}",
+    "Arey Wah! Dekho toh kaun aya! {card}"
     
 ];
 
